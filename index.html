@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quote Generator</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="card">
+  <header>
+    <span class="mark">“</span>
+    <p class="eyebrow">A thought for right now</p>
+  </header>
+
+  <blockquote class="quote" id="quote">Press the button for a quote.</blockquote>
+  <p class="author" id="author">—</p>
+
+  <div class="actions">
+    <button class="primary" id="newBtn" type="button">New quote</button>
+    <button class="ghost" id="copyBtn" type="button">Copy</button>
+  </div>
+
+  <footer>
+    <span id="count">01 / 60</span>
+    <span>Space for the next one</span>
+  </footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
